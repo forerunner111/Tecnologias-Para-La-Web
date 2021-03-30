@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 4</title>
+</head>
+<body>
+    <form method="POST" action="guardar.php">
+       <fieldset>
+            <table align="center">
+                <h1 align="center">CATÁLOGO DE ARTE</h1>
+                 <p><b>Introduce los términos de búsqueda:</b></p>
+
+                <tr>
+                    <th colspan="2" align="center">OBRA</th>
+                    <th colspan="2">TIPO</th>
+                    <th colspan="2">DISPONIBILIDAD</th>
+                    <th>ESTILO</th>
+                </tr>
+                
+                <tr>
+                    <td><label for="titulo">Título</label></td>
+                    <td><input type="text" id="titulo" name="titulo"></td>
+                   
+                    <td><input type="checkbox" id="tipo" name="tipo"></td>
+                    <td><label for="escultura">Escultura</label></td>
+
+                    <td><input type="radio" id="disponibilidad" name="disponibilidad"></td>
+                    <td><label for="titulo">Museo / Acceso público</label></td>
+
+                    <td><select id="estilo" name="estilo">
+                        <option value="1">Clásico</option>
+                        <option value="2">Abstracto</option>
+                        <option value="3">Barroco</option>
+                        <option value="5">Renacentista</option></select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="autor">Autor</label></td>
+                    <td><input type="text" id="autor" name="autor"></td>
+
+                    <td><input type="checkbox" id="tipo" name="tipo"></td>
+                    <td><label for="arquitectura">Arquitectura</label></td>
+
+                    <td><input type="radio" id="disponibilidad" name="disponibilidad"></td>
+                    <td><label for="titulo">Colección privada</label></td>
+                </tr>
+                   
+                <tr>
+                    <td><label for=""></label></td>
+                    <td></td>
+                    <td><input type="checkbox" id="tipo" name="tipo"></td>
+                    <td><label for="pintura">Pintura</label></td>
+                </tr>
+                        
+                <br />
+                    
+            </table>
+                    
+            <table>
+                <tr>
+                    <th valign="top">Háganos saber sus sugerencias:</th>
+                    <td><textarea name="sug" rows="5" cols="60">Me gustaría indicar que...</textarea></td>
+                </tr>
+                        
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" id="buscar" name="buscar" value="buscar"></td>
+                </tr>
+                    
+            </table>   
+        </fieldset>
+    </form>
+    <h2 align="center">[<a href="index.html">Index</a>]</h2>
+</body>
+</html>
