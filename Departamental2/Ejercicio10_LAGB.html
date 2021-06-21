@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ejercicio 10 | CSS</title>
+  <link rel="stylesheet" href="css/ejercicio-10.css">
+  <script src="https://kit.fontawesome.com/8a8a9aae0d.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+
+    <a href="#" class="boton boton-default" onclick="mostrardefault();">Default</a>
+    <a href="#" class="boton boton-primario"onclick="mostrarprimary();">Primary</a>
+    <a href="#" class="boton boton-secundario" onclick="mostrarsecondary();">Secondary</a>
+    <a href="#" class="boton boton-exito" onclick="mostrarsuccess();">Success</a>
+    <a href="#" class="boton boton-informacion" onclick="mostrarInfo();">Info</a>
+    <a href="#" class="boton boton-peligro" onclick="mostrarpeligro();">Danger</a>
+    <a href="#" class="boton boton-precaucion" onclick="mostrarPrecaucion();">Warning</a>
+
+    <div class="div-general div-rojo div-peligro" id="div-Danger"> 
+        <h4><i class="fas fa-exclamation-triangle"></i> Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+
+    <div class="div-general div-informacion" id="div-info">
+        <h4><i class="fas fa-skull-crossbones"></i>Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+
+    <div class="div-general div-precaucion" id="div-preca">
+        <h4><i class="fas fa-check-circle"></i>Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+
+    <div class="div-general div-exito" id="div-success">
+        <h4><i class="fas fa-info-circle"></i>Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+    <div class="div-general div-primario" id="div-primary">
+        <h4><i class="fas fa-info-circle"></i>Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+    <div class="div-general div-secundario" id="div-secondary">
+        <h4><i class="fas fa-info-circle"></i>Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+    <div class="div-general div-blanco" id="div-default">
+        <h4><i class="fas fa-info-circle"></i>Alert!</h4>
+        <p>Esta es la previsualizacion del alert</p>
+    </div>
+
+ <script src="../Plantilla/plugins/jquery/jquery.min.js"></script>
+<script src="js/ejercicio-10.js"></script>
+<script>
+   /* $(document).ready(function(){
+        alert("Hola mundo ahora si desde cero");
+    });*/
+</script>
+</body>
+</html>
